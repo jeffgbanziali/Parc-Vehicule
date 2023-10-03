@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ma Page</title>
+  </head>
+  <body>
+    <section id="vehiculeSection" class="structure1">
+      <h1>Liste des véhicules disponibles</h1>
+      <article class="vehicule">
+        <h5 class="vehiculeTitle"></h5>
+        <h5 class="vehiculeOption"></h5>
+        <h5 class="vehiculeActu"></h5>
+      </article>
+      <form action="" method="post" class="vehiculeForm">
+        <div class="inputEnter">
+          <label class="txt"  for="name">Marque </label>
+          <input type="text" name="Sa marque" id="marque" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="email"> Modèle </label>
+          <input type="text" name="Son modèle" id="email" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="name">Année </label>
+          <input type="year" name="l'année de fabrication" id="name" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="text">Couleur</label>
+          <input type="ext" name="La couleur" id="email" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt" for="text">Kilometrage </label>
+          <input  type="text" name="Son kilométrage" id="name" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="text">Etat </label>
+          <input type="text" name="Son etat" id="email" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="text"> Consommation</label>
+          <input type="text" name="La consommation" id="name" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="text">options </label>
+          <input type="text" name="les options" id="email" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="text">
+            motorisation<label>
+          <input type="text" name="La motorisation" id="name" required />
+        </div>
+        <div class="txt"  class="inputEnter">
+          <label for="text"> 
+            nombreDePortes
+            </label>
+          <input type="text" name="nombre de portes" id="name" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="text"> prixHT
+            </label>
+          <input type="text" name="Le prix hors taxe" id="name" required />
+        </div>
+        <div class="inputEnter">
+          <label class="txt"  for="text"> emplacementDuVehicule</label>
+          <input type="text" name="Emplacement du véhicule" id="name" required />
+        </div>
+        <div class="submit">
+          <input type="submit" value="Ajouter" />
+        </div>
+      </form>
+    </section>
+    <section id="vendeurSection" class="structure2">
+      <h1>Liste des potentiels Vendeurs</h1>
+      <article class="vendeurListe">
+        <h5 class="name"></h5>
+      </article>
+    </section>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
